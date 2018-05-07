@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.js"></script>
+	</head>
+	<body>
+	
+	<button class="btn btn-primary" data-toggle="modal" data-target="#login"> Open Modal </button>
+	
+	
+	<button class="btn btn-primary" data-toggle="modal" data-target="#photo"> My Photo </button>
+	
+	
+	<!--modal start-->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+	  <div class="modal-header bg-success">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">User Login</h4>
+      </div>
+      <div class="modal-body">
+		<div class="form-group">
+			<label> e-Mail </label>
+			<input type="text" class="form-control input-sm">
+		</div>
+		
+		<div class="form-group">
+			<label> Password </label>
+			<input type="password" class="form-control input-sm">
+		</div>
+      </div>
+      <div class="modal-footer">
+       <center>
+        <button type="button" class="btn btn-primary">Login</button>
+		 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+	</center>
+      </div> 
+	  
+    </div>
+  </div>
+</div>
+	<!--modal end-->
+	
+	
+	
+	<!--modal 2 start-->
+<div class="modal fade" id="photo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+	  <div class="modal-header bg-success">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">
+			User Phot List
+		</h4>
+      </div>
+      <div class="modal-body">
+			
+			<div class="row">
+				<div class="col-sm-4"> 
+					<img src="1.jpg" class="img-responsive img-rounded">
+				</div>
+				
+				<div class="col-sm-4"> 
+					<img src="1.jpg" class="img-responsive img-rounded">
+				</div>
+				
+				<div class="col-sm-4"> 
+					<img src="1.jpg" class="img-responsive img-rounded">
+				</div>
+			</div><!--row end-->
+      </div>
+    </div>
+  </div>
+</div>
+	<!--modal 2 end-->
+	
+	</body>
+</html>

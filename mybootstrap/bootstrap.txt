@@ -1,0 +1,17 @@
+1.Follow bootstrap.css
+2.follow body tag
+3.follow class
+	1.container
+	2.container-field
+4.Follow class -row
+5.follow clas-col
+NoTE] text-center,left,right,justify,top,bottom
+if(screen>678){
+row will work like row & column will work like columns
+}
+else{
+disable row
+column->row
+
+}
+	

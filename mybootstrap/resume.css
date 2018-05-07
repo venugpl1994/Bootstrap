@@ -1,0 +1,23 @@
+#frame{
+	margin:auto;
+	align:center;
+	width:600px;
+	height:900px;
+	background-color:white;
+	margin-top:25px;
+	margin-bottom:25px;
+	border:1px solid blue;
+	
+}
+#partition1{
+	width:250px;
+	height:900px;
+	background-color:skyblue;
+	float:left;
+	border:0px;
+}
+.row .col-sm-12{
+	height:177px;
+	color:palegreen;
+}
+
